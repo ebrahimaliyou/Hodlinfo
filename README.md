@@ -12,6 +12,7 @@ a crypto info website/ API
 7. mongoose (npm i mongoose)
 8. nodemon (npm i nodemon)
 9. setup .env and set MONGO_URI variable equal to DB connection string
+10. run -----'npm run start'
 
 
 #### In order to avoid port collisions, in the source code port value is 3000
