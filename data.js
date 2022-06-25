@@ -19,7 +19,7 @@ const cpy_data = async (data, keys, flag) => {
         }
     }
         , { upsert: true }
-    )
+    ).limit(10)
 }
 
 const d = async () => {
